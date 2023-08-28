@@ -7,8 +7,17 @@
     <title>Document</title>
 </head>
 
-<header>
-
+<header class="header">
+    <div class="contenedor barra-navegacion">
+        <div class="logo">
+            <img src="<?php echo get_template_directory_uri(); ?>/img/logo.svg" alt="Logotipo">
+        </div>
+        <nav>
+            <a href="/nosotros">Nosotros</a>
+            <a href="/contacto">Contacto</a>
+            <a href="/blog">Blog</a>
+        </nav> <!-- Nav -->
+    </div> <!-- Barra navegación -->
 </header>
 
 <body>
